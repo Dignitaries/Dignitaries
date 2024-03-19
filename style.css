@@ -1,0 +1,302 @@
+
+body{
+    padding-top: 30px;
+    background-color:rgb(247, 246, 246);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ position: relative;  
+}
+p, h1,H2,H4, H3{
+    margin: 0;
+    padding: 3px;
+    color: rgb(33, 10, 163);
+}
+
+.main-paragraph, p{
+    color: black;
+}
+.header2{
+    position:fixed;
+    background-color:rgb(21, 23, 102);
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.logo{
+    display: inline-block;
+    padding: 5px;
+    padding-left: 14px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70px;
+
+    
+}
+
+
+.logo img{
+    width: 100%;
+    border-radius: 14px;
+}
+ 
+   
+
+
+ul, li, .program-link a{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(247, 243, 243);
+    font-weight:500;
+    font-size: 18px;
+    transition: color 0.21s;
+    text-decoration: none;
+}
+.Active{
+    background-color: rgb(33, 10, 163) ;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+li:hover{
+    background-color:rgb(33, 10, 163) ;
+    text-decoration: underline 3px solid rgb(33, 10, 163);
+    cursor: pointer;
+}
+
+.programs:hover{
+    display: inline-block;
+}
+
+
+.program-link:hover .programs{ 
+display: inline-block;
+}
+
+.header-icon button {
+   background-color: rgb(21, 23, 102);;
+}
+.mobile-nav{
+    display: none;
+}
+.mobile-nav ul li{
+    display: block;
+}
+.header-icon {
+    width: 60px;
+    display: none;
+}
+
+.header-icon img{
+    width:50px;
+    margin-left: 0;
+border-radius: 4px;
+}
+.school-intro{
+    display: inline-block;
+    width: 60%;
+    margin-top: 70px;
+     align-items: top;
+}
+.school-intro p{
+    line-height: 30px;
+}
+
+.main-title{
+    justify-content: center;
+    font-size: 28px;
+    width: 100%;
+}
+
+.main-content{
+    display: flex;
+    align-items: baseline;
+}
+.motto{
+  
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.read-more-button{
+    display: block;
+    background-color: rgb(33, 10, 163);
+    color: white;
+    padding: 10px;
+    margin-left: 40%;
+    border-width: 0;
+    border-radius: 7px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}
+.read-more-button:hover{
+    color: rgb(33, 10, 163);
+    background-color: white;
+}
+
+.mission-vision-statement{
+    margin-top: 30px;
+    padding-top: 0;
+    display: flex;
+    align-items: top;
+}
+
+.VISION, .mission{
+ 
+    width: 45%;
+    display: inline-block;
+    border: 2px solid ;
+    padding: 7px;
+    margin: 1px;
+}
+
+.main-container{
+    display: flex;
+    padding-top: 100px;
+    
+}
+
+.student-image{
+    display: inline-block;
+    width: 50%;
+    margin-top: 70px;
+}
+
+.student-image img{
+    width: 100%;
+}
+
+
+
+.programs{
+    display:none;
+    position: absolute;
+    top:60px;
+    right:270px;
+    padding-top: 0;
+    background-color:rgb(21, 23, 102);
+
+}
+
+.programs ul{
+
+padding-top: 0;
+}
+.programs ul li{
+    display:block;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+/*contact page*/
+.contact-form{
+    width: 70%;
+    margin-top: 10px;
+}
+
+
+.contact-form input{
+    display: block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 80%;
+    color: rgb(21, 23, 102);
+    font-size: 17px;
+}
+
+#message-box{
+    height: 120px;
+}
+
+.contact-form button{
+    margin-left: 30px;
+    padding: 10px 25px;
+    margin-top: 0;
+}
+
+.social-links{
+    display: flex;
+    width: 70%;
+    margin-top: 70px;
+    justify-content: space-between;
+    color: rgb(21, 23, 102);
+    font-size: 27PX;
+    font-weight: 700;
+    align-items: center;
+
+}
+
+.social-links img{
+    display: inline-block;
+   width: 50px;
+    
+}
+
+/*picture designs and videos*/
+
+.elements-in-grid-box img, .elements-in-grid-box video{
+    width: 400px;
+    cursor: pointer;
+   }
+
+.sub-container{
+    display: block;
+    width: 100%;
+}
+.picture-heading{
+    display: block;
+}
+.grid-galary{
+    
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 10px;
+row-gap: 30px;
+
+}
+
+
+/*PROGRAMS PAGE editing*/
+
+.program-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.program-in-grid-box{
+   
+    display: flex;
+    align-items: center;
+}
+.program-image {
+ 
+    display: inline-block;
+
+}
+.program-image img{
+    width: 200px;
+}
+
+/*footer editing*/
+footer{
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    background-color: rgb(21, 23, 102);
+}

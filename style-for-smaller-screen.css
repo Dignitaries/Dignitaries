@@ -1,0 +1,156 @@
+
+/* medium devices */
+
+@media (max-width:875px) {
+
+    .student-image{
+       width: 100%;
+      margin-top: 100px;
+}
+
+h1{
+    width: 100%;
+    font-size: 18px;
+}
+
+.school-intro{
+    width: 99%;
+}
+
+.main-title{
+    justify-content: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.main-content{
+    display: flex;
+    align-items: baseline;
+}
+.motto{
+    font-size: 16px;
+  
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+
+.social-links img{
+    display: inline-block;
+   width: 40px;
+    
+}
+
+ul, li, .program-link a{
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(247, 243, 243);
+    font-weight:500;
+    font-size: 14px;
+    transition: color 0.21s;
+    text-decoration: none;
+}
+
+
+
+
+.program-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+.grid-galary{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    
+    }
+
+}
+
+
+
+
+
+/* smaller devices*/
+
+@media (max-width:600px) {
+
+    .header2 ul{
+        display: none;
+    }
+
+    .header-icon button{
+width: 70px;
+background-color: rgb(228, 228, 228);
+cursor: pointer;
+border-width: 0;
+    }
+
+
+
+    .header-icon {
+    width: 70px;
+    display: inline-block;
+}
+    
+    .student-image{
+        display: none;
+ }
+
+
+ .program-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+
+}
+
+
+.grid-galary{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+    
+    }
+ 
+
+    .mission-vision-statement{
+        display: block;
+
+    }
+    .VISION, .mission{
+ 
+        width: 99%;
+        display: block;
+        border: 2px solid ;
+        padding: 7px;
+        margin: 1px;
+    }
+
+    .motto{
+        font-size: 14px;
+      
+        margin-top: 3px;
+        margin-bottom: 6px;
+    }
+
+
+
+    .social-links img{
+        display: inline-block;
+       width: 20px;
+        
+    }
+}
