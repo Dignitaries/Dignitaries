@@ -1,18 +1,15 @@
-hambergerButton = document.querySelector(".hambergerButton");
 
 
-hambergerDiv = document.querySelector(".header-icon");
+const hambergerButton = document.querySelector(".hambergerButton");
+const hambergerDiv = document.querySelector(".header-icon");
+const mobileNav = document.querySelector(".mobile-nav");
 
-mobileNav = document.querySelector(".mobile-nav");
-desktopNav = document.querySelector(".header2");
-console.log(mobileNav.innerHTML)
+hambergerButton.addEventListener("click", toggleMobileNav);
 
-
-function hambergerFunction(){
-    if(mobileNav.innerHTML!== ""){
-        mobileNav.innerHTML= "";
-    } else{
-        mobileNav.innerHTML=hambergerDiv.innerHTML && "" ;
+function toggleMobileNav() {
+    if (mobileNav.style.display === "block") {
+        mobileNav.style.display = "none";
+    } else {
+        mobileNav.style.display = "block";
     }
-
 }
