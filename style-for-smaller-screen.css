@@ -3,10 +3,41 @@
 
 @media (max-width:875px) {
 
+    .mobile-nav{
+        display: none;
+        position: absolute;
+         top: 0;
+         right: 0;
+         background-color: rgb(21, 23, 102);
+         color: white;
+     
+         
+     }
+
+     .mobile-nav ul li{
+        display: block;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        color: white;
+     
+    }
+
+    .mobile-nav ul li a{
+        color: white;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: left;
+     
+    } 
+
     .student-image{
        width: 100%;
       margin-top: 100px;
 }
+
 
 h1{
     width: 100%;
@@ -65,6 +96,11 @@ ul, li, .program-link a{
 
 }
 
+.elements-in-grid-box img, .elements-in-grid-box video{
+    width: 98%;
+    cursor: pointer;
+   }
+
 .grid-galary{
     
     display: grid;
@@ -72,6 +108,48 @@ ul, li, .program-link a{
     column-gap: 10px;
     row-gap: 30px;
     
+    }
+
+    .div-in-footer{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        align-items: left;
+    }
+
+    .footer-1{
+        width: 70%;
+        align-items: start;
+        margin-bottom: 10px;
+        margin-left: 0;
+        text-align: right;
+       
+    }
+
+    .footer-1 h4{
+       margin-bottom: 0;
+       margin-top: 8px; 
+    }
+
+
+    .footer-1 div{
+        display: inline-flex;
+        margin-left: 0px;
+        align-items: start;
+        width: 30px;
+      
+    }
+    .footer-social{
+        display: inline-flex;
+    }
+
+    .footer-1 div img{
+      margin-right: 5px;
+    } 
+    .theotech-footer p{
+        
+        display: block;
+       
     }
 
 }
@@ -101,6 +179,33 @@ border-width: 0;
     width: 70px;
     display: inline-block;
 }
+.mobile-nav{
+    display:block;
+    position: absolute;
+     top: 90px;
+     right: 0;
+     background-color: rgb(21, 23, 102);
+ 
+     
+ }
+
+ .mobile-nav ul li{
+    display: block;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+ .mobile-nav ul li a{
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: left;
+ 
+} 
     
     .student-image{
         display: none;
@@ -114,7 +219,6 @@ border-width: 0;
     row-gap: 10px;
 
 }
-
 
 .grid-galary{
     

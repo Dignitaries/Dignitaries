@@ -15,6 +15,11 @@ p, h1,H2,H4, H3{
 .main-paragraph, p{
     color: black;
 }
+.menu-for-smaller-screen{
+
+    
+}
+
 .header2{
     position:fixed;
     background-color:rgb(21, 23, 102);
@@ -81,14 +86,37 @@ display: inline-block;
 }
 
 .header-icon button {
-   background-color: rgb(21, 23, 102);;
+   background-color: rgb(21, 23, 102);
 }
 .mobile-nav{
     display: none;
+   position: absolute;
+    top: 90px;
+    right: 0;
+    background-color: rgb(21, 23, 102);
+
+    
 }
+
 .mobile-nav ul li{
     display: block;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+ 
 }
+
+.mobile-nav ul li a{
+    color: white;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: left;
+ 
+} 
+
+
 .header-icon {
     width: 60px;
     display: none;
@@ -295,8 +323,50 @@ footer{
     margin: 0;
     left: 0;
     right: 0;
-    height: 200px;
+    padding-top:9px;
+    font-size: 18px;
+   
     display: flex;
     position: absolute;
     background-color: rgb(21, 23, 102);
+}
+footer p, footer h4{
+    color: rgb(241, 240, 240);
+   
+}
+
+.footer-1 h4{
+    text-align: center;
+}
+
+.div-in-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1{
+    margin-left: 30px;
+    margin-right: 100px;
+    text-align: right;
+}
+.contact, .contact1, .contact2, .contact3{
+    font-weight:500 ;
+    color: white;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.theotech-footer{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color:white;
+}
+
+.theotech-footer a{
+    color: white;
+    font-weight: 500;
+}
+
+.footer-1 img{
+    width:20px;
+    margin-bottom: 10px;
 }
